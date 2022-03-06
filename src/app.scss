@@ -1,6 +1,5 @@
 .app{
     height: 100vh;
-
     .sections{
         width: 100%;
         height: calc(100vh - 70px);
@@ -14,7 +13,7 @@
         }
 
         > * {
-            width: 100px;
+           // width: 100vw;
             height: calc(100vh - 70px);
             // scroll-snap-align: start;           
         }

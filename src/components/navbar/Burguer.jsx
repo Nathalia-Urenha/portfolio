@@ -8,13 +8,14 @@ const StyledBurguer = styled.div`
     position: fixed;
     top: 28px;
     right: 100px;
-    z-index: 20;
+    z-index: 2;
     display: none;
 
     @media (max-width: 1080px) {
         display: flex;
         justify-content: space-around;
         flex-flow: column nowrap;
+        overflow: hidden;
     }
 
     div{
