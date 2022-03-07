@@ -9,6 +9,7 @@ const Ul = styled.ul`
     color: inherit;
     text-decoration: none; 
     flex-flow: row nowrap;
+    z-index: 88888;
    // margin-right: 50px;
      
     li {
@@ -23,6 +24,7 @@ const Ul = styled.ul`
       color: inherit;
       text-decoration: none;
       margin-right: 2rem;
+      overflow: hidden;
       cursor: pointer;
     }
 
@@ -69,15 +71,15 @@ const RightNav = ({open}) => {
       <li> <a href="#project">Projeto Integrador</a></li>
       <li>
         <div className="socialContainer">
-          <IconButton aria-label="GitHub" className="social" href="https://github.com/Nathalia-Urenha">
+          <IconButton aria-label="GitHub" className="social" href="https://github.com/Nathalia-Urenha" target="_blank">
               <GitHub />
           </IconButton>
         
-          <IconButton aria-label="Linkedin" className="social" href="https://www.linkedin.com/in/nathalia-maria-urenha-machado-81824916a/">
+          <IconButton aria-label="Linkedin" className="social" href="https://www.linkedin.com/in/nathalia-maria-urenha-machado-81824916a/" target="_blank">
               <LinkedIn />
           </IconButton>
         
-          <IconButton aria-label="Whatsapp" className="social" href="https://contate.me/nathalia">
+          <IconButton aria-label="Whatsapp" className="social" href="https://contate.me/nathalia" target="_blank">
               <WhatsApp />
           </IconButton>
         </div>

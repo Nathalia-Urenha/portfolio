@@ -4,7 +4,6 @@ import NavBar from './components/navbar/NavBar';
 import Tcc from './components/TCC/Tcc';
 import Project from './components/Project/Project';
 import './app.scss';
-import Footer from './components/footer/Footer';
 
 function App() {
   return (

@@ -1,9 +1,8 @@
 @import "../../global.scss";
 
 .mystory {
-    background-color: #fff;
     display: flex;
-
+    max-height: 700px;
 
     .left{
         flex: 0.5;
@@ -27,19 +26,20 @@
             }
 
             .text{
-                font-size: 20px;
+                font-size: 15px;
             }
         }  
     }
 
     .right{
-        flex: 0.5;
+        flex: 0.7;
         overflow: hidden;
+        margin-left: 50px;
         .imgContainer{
             display: flex;
             align-items: flex-end;
             justify-content:center;
-            float: left;
+            float: right;
 
             img{
                 height: 90%;

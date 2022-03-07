@@ -1,0 +1,28 @@
+@import "../../global.scss";
+
+.folder{
+    margin-top: 30px;
+    border: 1px solid $mainColor;
+    border-radius: 16px;
+    padding: 7px;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 700;
+    color: $mainColor;
+    background-color: #eaf6f5;
+    width: 30%;
+    text-decoration: none;
+
+    img{
+        cursor: pointer;
+    }
+
+    span{
+        position: relative;
+        top: -9px;
+        left: 10px;
+        color: $secondaryColor;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}

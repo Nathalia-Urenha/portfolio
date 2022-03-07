@@ -23,7 +23,9 @@ export default function Home() {
             <img src="assets/css-3.png" alt="" />
             <img src="assets/python.png" alt="" />
           </div>
-        </div>        
+        </div>
+        
+        
       </div>
     </div>
   )
